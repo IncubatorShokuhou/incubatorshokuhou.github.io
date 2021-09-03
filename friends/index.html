@@ -41,7 +41,6 @@
 
 
 
-  <meta name="description" content="Let me show you another way to a better land">
 </head>
 
 <body>
@@ -84,7 +83,7 @@
           
             
             
-            <li class="nav-item nav-item-active">
+            <li class="nav-item ">
               
               
                 <a href="/archives/" target="_self">
@@ -148,7 +147,7 @@
   <div class="main-continer">
     
     <div
-      class="section-layout  pisces">
+      class="section-layout pisces ">
       <div class="section-layout-wrapper">
         <div id="sidebarMeta" class="sidebar">
     
@@ -204,54 +203,57 @@
     });
   }
   </script>
-        <div class="section-box box-shadow-wrapper">
-          <section class="section archives-section bg-color posts-expand">
+        <div class="section-box pisces box-shadow-wrapper">
+          <section class="friends-section bg-color slide-down-in">
+            <div class="firends-box">
+              <h1 class="firends-title" itemprop="name headline"></h1>
+              
+            </div>
+            <hr>
+            <div style="text-align:center">
+              <span class="with-love">
+                <i class="fa fa-heart"></i>
+              </span>
+              <span class="language" data-lan="leave-message">留言添加友链</span>
+              <span class="with-love">
+                <i class="fa fa-heart"></i>
+              </span>
+            </div>
+            <hr>
+            <div class="friends-note">
+              <p><strong class="language" data-lan="format">友链格式：</strong></p>
+              <ul>
+                <li><span class="language" data-lan="site-name">网站名称：</span>IncubatorShokuhou的小小站</li>
+                <li><span class="language" data-lan="site-link">网站地址：</span><a href="https://incubatorshokuhou.github.io" data-pjax-state="">https://incubatorshokuhou.github.io</a></li>
+                <li><span class="language" data-lan="site-desc">网站描述：</span>Let me show you another way to a better land</li>
+                <li><span class="language" data-lan="site-img">网站头像：</span>
+                  <a href="https://incubatorshokuhou.github.io/images/avatar.png">https://incubatorshokuhou.github.io/images/avatar.png</a>
+                </li>
+              </ul>
+            </div>
             
-
-<div class="bg-color">
-  <div class="archive-timeline-box">
-    <div class="archive-timeline-title">
-      
-        <h2 class="language" data-lan="archives" data-count="1">非常好！目前共计1篇日志，继续努力！</h2>
-      
-    </div>
-    
-      
-      
-        <div class="node-title">
-          <h2 class="tag-year">2019</h2>
-        </div>    
-        
-      
-      <a href="https://incubatorshokuhou.github.io/post/about/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              01-25
-              <small>关于</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
-  </div>
   
-<div class="page bg-color">
-  <ul class="pagination-ul">
+    
+      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '8347f7864b1115045e80',
+    clientSecret: '08523eadd54b0b5ebaac9eeabf9bf7c3c69eb198',
+    repo: 'incubatorshokuhou.github.io',
+    owner: 'IncubatorShokuhou',
+    admin: ['IncubatorShokuhou'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
     
     
-      
-        <li class="pagination-li pagination-active">
-            <a href="/archives/page/../">
-              1
-            </a>
-        </li>
-      
-    
-    
-  </ul>
-</div>
-</div>
+  
 
           </section>
         </div>
