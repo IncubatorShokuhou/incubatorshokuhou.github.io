@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://incubatorshokuhou.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-09-03T02:24:02.408Z</updated>
+    <title>IncubatorShokuhou的小小站</title>
+    <updated>2021-09-03T02:25:27.405Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://incubatorshokuhou.github.io"/>
     <link rel="self" href="https://incubatorshokuhou.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>Let me show you another way to a better land</subtitle>
     <logo>https://incubatorshokuhou.github.io/images/avatar.png</logo>
     <icon>https://incubatorshokuhou.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, IncubatorShokuhou的小小站</rights>
 </feed>
